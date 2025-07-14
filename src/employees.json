@@ -1,0 +1,23 @@
+[
+ {
+   "id": 1,
+   "first_name": "Test1",
+   "lastName": "test1",
+   "email": "test1@test.com",
+   "workdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+ },
+ {
+   "id": 2,
+   "first_name": "Test2",
+   "lastName": "test2",
+   "email": "test2@test.com",
+   "workdays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
+ },
+ {
+   "id": 3,
+   "first_name": "Test3",
+   "lastName": "test3",
+   "email": "test3@test.com",
+   "workdays": ["Monday", "Wednesday", "Friday"]
+ }
+]

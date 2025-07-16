@@ -1,5 +1,6 @@
 import { EmployeesIndex } from "./EmployeesIndex";
 
+// rendering the EmployeesIndex page
 function App() {
   return (
     <div>

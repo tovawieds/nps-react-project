@@ -1,23 +1,72 @@
 [
- {
-   "id": 1,
-   "first_name": "Test1",
-   "lastName": "test1",
-   "email": "test1@test.com",
-   "workdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
- },
- {
-   "id": 2,
-   "first_name": "Test2",
-   "lastName": "test2",
-   "email": "test2@test.com",
-   "workdays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
- },
- {
-   "id": 3,
-   "first_name": "Test3",
-   "lastName": "test3",
-   "email": "test3@test.com",
-   "workdays": ["Monday", "Wednesday", "Friday"]
- }
+	{
+		"id": 1,
+		"first_name": "Hyacinth",
+		"last_name": "Riley",
+		"email": "vivamus@outlook.ca",
+		"workdays": ["Tuesday", "Wednesday", "Friday"]
+	},
+	{
+		"id": 2,
+		"first_name": "Freya",
+		"last_name": "Brennan",
+		"email": "laoreet@hotmail.net",
+		"workdays": ["Monday", "Wednesday"]
+	},
+	{
+		"id": 3,
+		"first_name": "Xyla",
+		"last_name": "Knowles",
+		"email": "phasellus@yahoo.couk",
+		"workdays": ["Thursday"]
+	},
+	{
+		"id": 4,
+		"first_name": "Megan",
+		"last_name": "Grant",
+		"email": "quis.urna@yahoo.ca",
+		"workdays": ["Monday", "Tuesday", "Thursday"]
+	},
+	{
+		"id": 5,
+		"first_name": "Noelle",
+		"last_name": "Branch",
+		"email": "arcu.vel@yahoo.ca",
+		"workdays": ["Tuesday", "Wednesday", "Friday"]
+	},
+  {
+		"id": 6,
+		"first_name": "Graham",
+		"last_name": "O'Neill",
+		"email": "cursus@hotmail.ca",
+		"workdays": ["Tuesday", "Wednesday", "Thursday"]
+	},
+	{
+		"id": 7,
+		"first_name": "Graiden",
+		"last_name": "Dejesus",
+		"email": "eu@aol.ca",
+		"workdays": ["Monday", "Wednesday", "Thursday", "Friday"]
+	},
+	{
+		"id": 8,
+		"first_name": "Gisela",
+		"last_name": "Franklin",
+		"email": "donec@aol.couk",
+		"workdays": ["Tuesday", "Thursday"]
+	},
+	{
+		"id": 9,
+		"first_name": "Ralph",
+		"last_name": "Atkinson",
+		"email": "cum.sociis@aol.edu",
+		"workdays": ["Monday", "Tuesday", "Wednesday", "Thursday"]
+	},
+	{
+		"id": 10,
+		"first_name": "Malcolm",
+		"last_name": "Bates",
+		"email": "donec.egestas@protonmail.com",
+		"workdays": ["Wednesday", "Thursday"]
+	}
 ]

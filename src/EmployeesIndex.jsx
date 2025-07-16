@@ -17,17 +17,35 @@ export function EmployeesIndex() {
       </select>
       {employees
         .filter((employee) => sortOption === "" || employee.workdays.includes(sortOption))
+        .sort((a, b) => a.last_name.localeCompare(b.last_name))
         .map((employee) => (
           <div key={employee.id}>
             <h3>
-              {employee.first_name} {employee.last_name}
+              <u>
+                {employee.first_name} {employee.last_name}
+              </u>
             </h3>
-            <p>{employee.email}</p>
-            <ul>
+            <p>
+              <strong>Email: </strong>
+              {employee.email}
+            </p>
+            <div>
+              <strong>Workdays:</strong>
+              <ul style={{ listStyle: "circle", paddingLeft: "1.5rem", marginTop: "0.25rem" }}>
+                {employee.workdays.map((day, index) => (
+                  <li key={index} style={{ marginBottom: "4px" }}>
+                    {day}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* <ul>
+              Workdays:
               {employee.workdays.map((day, index) => (
                 <li key={index}>{day}</li>
               ))}
-            </ul>
+            </ul> */}
+            {/* <p>Workdays: {employee.workdays.join(", ")}</p> */}
           </div>
         ))}
     </div>

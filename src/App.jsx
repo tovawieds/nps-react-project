@@ -9,3 +9,5 @@ function App() {
 }
 
 export default App;
+
+// used generatedata.com to generate some fake data
